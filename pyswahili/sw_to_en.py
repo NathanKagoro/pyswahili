@@ -29,6 +29,11 @@ dictionary = {
         "kamusi": "dict",
         "jaribu": "try",
         "ila": "except",  # ila is a lot simple to catch with and most relevant translation of except
+        "ndogo": "min",
+        "kubwa": "max",
+        "aina": "type",
+        "orodhesha": "enumerate",
+        "jumlisha": "sum",
     },
     "block_keywords": {
         "kama": "if",

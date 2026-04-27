@@ -191,6 +191,22 @@ Namba yoyote : 8
 
 If you want to see all the supported keywords in pyswahili, you can view all of them by visiting [Pyswahili supported keywords](https://github.com/Kalebu/pyswahili/blob/main/pyswahili/sw_to_en.py), Keywords are not final, so whenever you see a need for a keyword change feel free to reach me directly.
 
+### Built-in Functions
+
+| Swahili | Python | Description |
+|---------|--------|-------------|
+| `andika` | `print` | Print to stdout |
+| `ingiza` | `input` | Read user input |
+| `neno` | `str` | String type |
+| `orodha` | `list` | List type |
+| `kamusi` | `dict` | Dictionary type |
+| `katiya` | `range` | Range of numbers |
+| `ndogo` | `min` | Minimum value |
+| `kubwa` | `max` | Maximum value |
+| `aina` | `type` | Type of an object |
+| `orodhesha` | `enumerate` | Enumerate an iterable |
+| `jumlisha` | `sum` | Sum of an iterable |
+
 ## How does it work ?
 
 This can be achieved by using Python builtin **lexical scanner** tokenize for python source code, which is capable of breaking the python source code into pieces strings with their **type** (NAME, OP, NUMBER, NEWLINE, IDENT) and so on.
